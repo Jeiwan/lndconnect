@@ -1,10 +1,7 @@
 default: install
 
-dep:
-	go get ./...
-
-install: dep
-	go install -v ./...
+install:
+	go install
 
 test:
 	go test -v
